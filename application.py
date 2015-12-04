@@ -39,7 +39,7 @@ def other_factorial():
     """THIS ASK IS WANT TO SEE OTHER NUMBER"""
     print_factorial()
     while True:
-        ask_user = raw_input("\nDo you want to know the factorial of other number?  y/n  ")
+        ask_user = raw_input("\nYou want to enter another number??  y/n  ")
         if ask_user == "y":
             print_factorial()
         elif ask_user == "n":
